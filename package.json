@@ -1,0 +1,39 @@
+{
+  "name": "webpack-builder",
+  "version": "1.0.0",
+  "description": "webpack pureJS git git flow algorithm patterns solid OOP",
+  "main": "index.js",
+  "repository": "",
+  "author": "Artem <artyom.aweryanow@yandex.ru>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "cross-env NODE_ENV=development webpack serve --open",
+    "build": "cross-env NODE_ENV=production webpack --mode production"
+  },
+  "browserslist": [
+    "> 0.25%, not dead"
+  ],
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.16.5",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.16.5",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.3",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^10.2.0",
+    "css-loader": "^6.5.1",
+    "eslint-config-google": "^0.14.0",
+    "eslint-loader": "^4.0.2",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.4.5",
+    "sass-loader": "^12.4.0",
+    "webpack-dev-server": "^4.7.1"
+  },
+  "dependencies": {
+    "@babel/core": "^7.16.5",
+    "eslint": "^8.5.0",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1"
+  }
+}
